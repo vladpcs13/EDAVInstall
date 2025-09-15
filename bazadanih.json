@@ -1,1 +1,20 @@
+{
+  "malware": [
+    {
+      "name": "Yandex.exe",
+      "type": "process",
+      "description": "Обнаружен тупой браузер!"
+    },
+    {
+      "name": "Yandex.exe",
+      "type": "file",
+      "description": "Обнаружен тупой браузер!"
+    },
+    {
+      "name": "ransomware.bat",
+      "type": "file",
+      "description": "Обнаружен рансомвар!"
+    }
+  ]
+}
 
