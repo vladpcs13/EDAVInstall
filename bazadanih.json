@@ -10,6 +10,16 @@
       "type": "file",
       "description": "Обнаружен тупой браузер!"
     },
+        {
+      "name": "360TS_Setup_Mini.exe",
+      "type": "file",
+      "description": "Обнаружен тупой браузер!"
+    },
+        {
+      "name": "360TS_Setup_Mini.exe",
+      "type": "process",
+      "description": "Обнаружен тупой браузер!"
+    },
     {
       "name": "ransomware.bat",
       "type": "file",
