@@ -1,30 +1,11 @@
 {
   "malware": [
-    {
-      "name": "Yandex.exe",
-      "type": "process",
-      "description": "Обнаружен тупой браузер!"
-    },
-    {
-      "name": "Yandex.exe",
-      "type": "file",
-      "description": "Обнаружен тупой браузер!"
-    },
-        {
-      "name": "360TS_Setup_Mini.exe",
-      "type": "file",
-      "description": "Обнаружен тупой браузер!"
-    },
-        {
-      "name": "360TS_Setup_Mini.exe",
-      "type": "process",
-      "description": "Обнаружен тупой браузер!"
-    },
-    {
-      "name": "ransomware.bat",
-      "type": "file",
-      "description": "Обнаружен рансомвар!"
-    }
+    { "name": "360TS_Setup_Mini.exe", "type": "process", "description": "вирус" },
+    { "name": "360TS_Setup_Mini.exe", "type": "file", "description": "вирус" }
+    { "name": "badfile.dll", "type": "file", "description": "Вредоносная DLL" }
+  ],
+  "blocked_sites": [
+    { "domain": "https://www.360totalsecurity.com", "description": "Вирус" },
+    { "domain": "stealer.ru", "description": "Кража данных" }
   ]
 }
-
